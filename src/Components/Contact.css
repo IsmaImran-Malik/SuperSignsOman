@@ -1,0 +1,27 @@
+.contact-cont {
+    margin-top: 90px;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.Map-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px; /* Adds some space around */
+    box-sizing: border-box;
+}
+
+.Map {
+    width: 90%; /* Makes the map responsive */
+    max-width: 1300px; /* Prevents it from becoming too large */
+    height: 450px;
+    border: 0;
+}
+
+/* Mobile Screen Fix */
+@media (max-width: 768px) {
+    .Map {
+        width: 100%; /* Ensures it takes full width */
+        height: 300px; /* Reduces height for smaller screens */
+    }
+}

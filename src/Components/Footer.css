@@ -1,0 +1,26 @@
+  /* Footer styles */
+  .footer {
+    background-color: #A61A1D; /* Dark red background */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 5px 0; /* Narrower padding for a sleeker appearance */
+    font-size: 14px; /* Adjusted font size */
+    width: 100vw; /* Full width of the screen */
+    position: relative; /* Ensures it adapts within the document flow */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+  }
+  
+  /* Responsive font adjustment */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 12px; /* Smaller font for tablets and smaller devices */
+      padding: 8px 0; /* Adjusted padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      font-size: 11px; /* Further reduced font size for very small screens */
+      padding: 6px 0;
+    }
+  }
