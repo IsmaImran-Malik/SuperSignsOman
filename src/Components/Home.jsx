@@ -171,9 +171,7 @@ const Home = () => {
               <li>
                 <b>Kiosk</b>
               </li>
-              <button>
-                <a href="./src/Components/Services.jsx">View more</a>
-              </button>
+              
             </ul>
           </div>
         </div>
